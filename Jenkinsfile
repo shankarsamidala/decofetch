@@ -5,7 +5,7 @@ environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
 
         def prod = "cd /home/ubuntu/beumont/decofetch && \
-            sudo git pull"
+            sudo git pull "
     
 	}
 
