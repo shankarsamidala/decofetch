@@ -67,3 +67,4 @@ Allow: /*?tab=achievements&achievement=*
 Disallow: /account-login
 Disallow: /Explodingstuff/
 
+Disallow: /Explodingstuff-sample/
