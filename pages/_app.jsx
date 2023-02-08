@@ -39,7 +39,7 @@ const WrappedApp = ({ Component, pageProps }) => {
   }, [router]);
 
   useEffect(() => {
-    TagManager.initialize({ gtmId: "G-NL91V4M2JT" });
+    TagManager.initialize({ gtmId: "G-0Y5N1GLPM1" });
   }, []);
 
   // console.log('window', window)
@@ -52,16 +52,14 @@ const WrappedApp = ({ Component, pageProps }) => {
             <React.Fragment>
               <Script
                 strategy="lazyOnload"
-                src={`https://www.googletagmanager.com/gtag/js?id=G-NL91V4M2JT`}
+                src={`https://www.googletagmanager.com/gtag/js?id=G-0Y5N1GLPM1`}
               />
               <Script strategy="lazyOnload">
                 {`
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-NL91V4M2JT', {
-                  page_path: window.location.pathname,
-                  });
+                   window.dataLayer = window.dataLayer || [];
+                   function gtag(){dataLayer.push(arguments);}
+                   gtag('js', new Date());
+                   gtag('config', 'G-0Y5N1GLPM1');
               `}
               </Script>
               <Script strategy="lazyOnload">
@@ -117,19 +115,17 @@ const WrappedApp = ({ Component, pageProps }) => {
           persistor={store.__persistor}
         >
           <Script
-            strategy="lazyOnload"
-            src={`https://www.googletagmanager.com/gtag/js?id=G-NL91V4M2JT`}
-          />
-          <Script strategy="lazyOnload">
-            {`
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-NL91V4M2JT', {
-                  page_path: window.location.pathname,
-                  });
+                strategy="lazyOnload"
+                src={`https://www.googletagmanager.com/gtag/js?id=G-0Y5N1GLPM1`}
+              />
+              <Script strategy="lazyOnload">
+                {`
+                   window.dataLayer = window.dataLayer || [];
+                   function gtag(){dataLayer.push(arguments);}
+                   gtag('js', new Date());
+                   gtag('config', 'G-0Y5N1GLPM1');
               `}
-          </Script>
+              </Script>
           <Script strategy="lazyOnload">
             {`
                   !function(f,b,e,v,n,t,s)

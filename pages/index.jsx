@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Head from "next/head";
 import { withRouter } from "next/router";
 import { useEffect } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
@@ -71,6 +72,19 @@ const Home = ({
 
   return (
     <div>
+       <Head>
+        <title>
+          Luxury Furniture | Home Decor | Lightings | Rugs | Decofetch
+        </title>
+        <meta
+          name="description"
+          content="Shop the latest and trendy home decor items at 
+          Decofetch. Discover a wide range of unique furniture, lighting, wall art, 
+          accessories, and more. Upgrade your space with our stylish and designer
+          products!"
+          key="desc"
+        />
+      </Head>
       {/* <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{

@@ -45,8 +45,16 @@ export default class MyDocument extends Document {
           </noscript>
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-NL91V4M2JT"
+            src="https://www.googletagmanager.com/gtag/js?id=G-0Y5N1GLPM1"
           ></script>
+          <Script strategy="lazyOnload">
+            {`
+                 window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0Y5N1GLPM1');
+              `}
+          </Script>
           <Script
             strategy="afterInteractive"
             dangerouslySetInnerHTML={{
