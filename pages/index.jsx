@@ -84,6 +84,7 @@ const Home = ({
           products!"
           key="desc"
         />
+          <link rel="canonical" href={`https://www.decofetch.com`} />
       </Head>
       {/* <Script
         strategy="afterInteractive"
