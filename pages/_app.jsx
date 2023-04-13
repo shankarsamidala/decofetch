@@ -76,6 +76,23 @@ const WrappedApp = ({ Component, pageProps }) => {
                   fbq('track', 'PageView');                  
               `}
               </Script>
+              <Script type="application/ld+json">
+                {`
+                  "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Decofetch",
+                "url": "https://www.decofetch.com/",
+                "logo": "https://www.decofetch.com/",
+                "sameAs": [
+                "https://www.facebook.com/people/Decofetch/100083573260604/",
+                "https://twitter.com/decofetch",
+                "https://www.instagram.com/decofetch/",
+                "https://www.youtube.com/channel/UCWBZ9G0gz9CPINSbl3OnWng",
+                "https://www.linkedin.com/company/decofetch",
+                "https://www.pinterest.co.uk/decofetch/"
+                ],
+                 `}
+              </Script>
               <noscript>
                 <img
                   height="1"
@@ -101,6 +118,7 @@ const WrappedApp = ({ Component, pageProps }) => {
                   content="width=device-width, user-scalable=no"
                 />
                 <meta name="theme-color" content="#ffffff" />
+                <meta name="google-site-verification" content="VVKIM4UOXVACJlqxSTXqrEUDkqYNusmPtD5UdYn6t-8" />
                 <script
                   rel="preload"
                   src="https://www.paypal.com/sdk/js?client-id=Ab35VlP1kbkSbYXqanSsMMrmLacUFP1iDiDxM796zLNNBVHyoYEOenGh_Kc9sC-Kbx7bPvlUPD9LjVJu&disable-funding=card,credit,paylater&currency=GBP"
@@ -115,17 +133,17 @@ const WrappedApp = ({ Component, pageProps }) => {
           persistor={store.__persistor}
         >
           <Script
-                strategy="lazyOnload"
-                src={`https://www.googletagmanager.com/gtag/js?id=G-0Y5N1GLPM1`}
-              />
-              <Script strategy="lazyOnload">
-                {`
+            strategy="lazyOnload"
+            src={`https://www.googletagmanager.com/gtag/js?id=G-0Y5N1GLPM1`}
+          />
+          <Script strategy="lazyOnload">
+            {`
                    window.dataLayer = window.dataLayer || [];
                    function gtag(){dataLayer.push(arguments);}
                    gtag('js', new Date());
                    gtag('config', 'G-0Y5N1GLPM1');
               `}
-              </Script>
+          </Script>
           <Script strategy="lazyOnload">
             {`
                   !function(f,b,e,v,n,t,s)

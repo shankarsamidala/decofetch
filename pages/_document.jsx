@@ -78,6 +78,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
             }}
           ></Script>
+          <Script type="application/ld+json">
+            {`
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Decofetch",
+                "url": "https://www.decofetch.com/",
+                "logo": "https://www.decofetch.com/",
+                "sameAs": [
+                "https://www.facebook.com/people/Decofetch/100083573260604/",
+                "https://twitter.com/decofetch",
+                "https://www.instagram.com/decofetch/",
+                "https://www.youtube.com/channel/UCWBZ9G0gz9CPINSbl3OnWng",
+                "https://www.linkedin.com/company/decofetch",
+                "https://www.pinterest.co.uk/decofetch/"
+                ],
+                 `}
+          </Script>
+          <meta name="google-site-verification" content="VVKIM4UOXVACJlqxSTXqrEUDkqYNusmPtD5UdYn6t-8" />
         </Head>
         <body>
           <noscript
