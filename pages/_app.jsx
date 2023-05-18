@@ -118,7 +118,6 @@ const WrappedApp = ({ Component, pageProps }) => {
                   content="width=device-width, user-scalable=no"
                 />
                 <meta name="theme-color" content="#ffffff" />
-                <meta name="google-site-verification" content="VVKIM4UOXVACJlqxSTXqrEUDkqYNusmPtD5UdYn6t-8" />
                 <script
                   rel="preload"
                   src="https://www.paypal.com/sdk/js?client-id=Ab35VlP1kbkSbYXqanSsMMrmLacUFP1iDiDxM796zLNNBVHyoYEOenGh_Kc9sC-Kbx7bPvlUPD9LjVJu&disable-funding=card,credit,paylater&currency=GBP"
