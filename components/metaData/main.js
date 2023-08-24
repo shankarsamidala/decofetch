@@ -2,11 +2,11 @@ const metaData = (value) => {
     let content = {};
     if (value === "furniture") {
         content.title =
-            "Modern Home Luxury Furniture Store | Buy High End Bespoke Furniture Online";
+            "Modern Home Luxury Furniture Store | High End Bespoke Furniture Online";
         content.desc =
-            "Decofetch is one of the best Luxury Furniture   Stores. You can find a variety of High-End Furniture for your home &  office. Shop the Modern, Luxurious & Bespoke Furniture Online.";
+            "Decofetch is one of the best luxury furniture stores that offer high-end furniture for your home & office. Shop the designer, luxurious & bespoke furniture online.";
         content.keys =
-            "Modern Luxury Furniture, Luxury Furniture Store, High End Furniture, Home Luxury Furniture, Bespoke Furniture Online, High End Home Furniture, luxurious home furniture, High End Home Furniture";
+            "Modern Luxury Furniture, Luxury Furniture Store, High End Furniture, Home Luxury Furniture, Bespoke Furniture Online, High End  Home Furniture, luxurious home furniture, High End Home Furniture, Luxury furniture, Designer furniture";
     }
 
     if (value === "living-room") {
@@ -19,19 +19,19 @@ const metaData = (value) => {
 
     if (value === "sofas") {
         content.title =
-            "High End & Luxury Modern Sofas Company | Velvet & Designer Leather Sofas";
+            "High End & Luxury Modern Sofas | Velvet & Designer Leather Sofas";
         content.desc =
-            "Decofetch is the best sofa company that offers High-End sofas for your living room. Shop the Luxury Designer Leather and velvet Sofas made from high quality materials.";
+            "Decofetch offers High-End sofas for your living room. Our collection of Designer Sofas includes Luxury Designer Leather and velvet Sofas made from high quality materials.";
         content.keys =
-            "Best Sofa Company, High End Sofas, Luxury Sofas for Sale, Luxury Designer Sofas, Luxury Modern Sofa, Luxury Velvet Sofas, Designer Leather Sofa";
+            "High End Sofas, Luxury Designer Sofas, Luxury Modern Sofa, Luxury Velvet Sofas, Designer Leather Sofa, Luxury Sofas, Designer Sofas";
     }
 
     if (value === "sectional-&-corner-sofas") {
         content.title =
-            "Luxury Corner Sofa Bed | Sectional & Corner Sofas UK| Decofetch";
+            "Luxury Corner Sofa Bed | Sectional & Designer Corner Sofas UK| Decofetch";
         content.desc =
-            "Luxury Corner Sofas are the best choice to make your living room feel more welcoming. Our sectional & corner sofas beds come in various sizes, colors, and designs including velvet sofas, modular sofas, etc.";
-        content.keys = "Luxury Corner Sofa, Luxury Corner Sofa Bed";
+            "Luxury Corner Sofas are the best choice to make your living room feel more welcoming. Our sectional & Designer corner sofas beds come in various sizes, colors, and designs.";
+        content.keys = "Luxury Corner Sofa, Luxury Corner Sofa Bed, Designer Corner Sofa";
     }
 
     if (value === "sofa-beds") {
@@ -40,14 +40,25 @@ const metaData = (value) => {
             "Browse the best selection of Luxury Sofa Beds at Decofetch. Our sofa beds are not only stylish and comfortable, they are durable too. Find one that suits your taste!";
         content.keys = "Luxury Sofa Beds";
     }
-
+    if (value === "waredrobes") {
+        content.title = "Designer Wardrobe | Bespoke Wardrobe | Luxury Walk in Closet";
+        content.desc =
+            "Explore the designer wardrobe and luxury walk-in closet collections at Decofetch. Elevate your bedroom with our beautifully crafted luxury and bespoke wardrobes.";
+        content.keys = "Luxury Walk in Closet, Luxury Wardrobe, Luxury Closet, Designer Wardrobe, Bespoke Wardrobe";
+    }
+    if (value === "table-lamps") {
+        content.title = "Designer Table Lamps | Luxury Table Lamps | Decofetch";
+        content.desc =
+            "Discover the ultimate in style and elegance with our Designer Table Lamp. Decofetch offers a stunning selection of indoor lighting Luxury Lamp Tables for your home.";
+        content.keys = "Luxury Lamp Tables, Luxury Table Lamp, Designer Table Lamp";
+    }
     if (value === "occasional-chairs") {
         content.title =
             "Luxury Chairs | Luxury Occasional Chairs | High End Occasional Chairs";
         content.desc =
-            "Decofetch offers a wide selection of Luxury Occasional Chairs that are perfect for the living room. Find the perfect Luxury Chairs for your space if you’re looking for high-end Occasional Chairs.";
+            "Decofetch offers luxury occasional chairs. Invest in designer and luxury chairs to complement your space. Shop now for high-end occasional chairs and luxury armchairs.";
         content.keys =
-            "Luxury Occasional Chairs, Luxury Chair, High End Occasional Chairs";
+            "Luxury Occasional Chairs, Luxury Chair, High End Occasional Chairs, Designer Chair, Luxury Armchair"
     }
 
     if (value === "coffee-tables") {
@@ -73,10 +84,10 @@ const metaData = (value) => {
         content.keys = "Luxury Bedside Table, Designer Bedside Table";
     }
     if (value === "chest-of-drawers") {
-        content.title = "Luxury Chest Of Drawers | Decofetch";
+        content.title = "Luxury Chest Of Drawers | Designer Chest of Drawers & Dresser";
         content.desc =
-            "Chest Of Drawers is great for saving space in your home. Decofetch has an exclusive collection of Luxury Chest of Drawers which can be found online at www.decofetch.com";
-        content.keys = "luxury chest of drawers";
+            "Designer Chest Of Drawers is great for saving space in your home. Decofetch has an exclusive collection of Luxury Chest of Drawers which can be found online at www.decofetch.com";
+        content.keys = "luxury chest of drawers, Designer Chest of Drawer";
     }
     if (value === "beds") {
         content.title =
@@ -84,24 +95,24 @@ const metaData = (value) => {
         content.desc =
             "Decofetch offers bespoke luxury designer beds that will make your bedroom shine. If you're looking for a luxury king-size or queen-size bed, come and visit us today.";
         content.keys =
-            "luxury bed king size, luxury designer beds, bespoke luxury beds";
+            "luxury bed king size, luxury designer beds, bespoke luxury beds, Designer Beds, Luxury Beds";
     }
 
     if (value === "dining-chairs") {
         content.title =
-            "Best Luxury Dining Chairs | Luxury Velvet Dining Chairs | Decofetch";
+            "Royal Luxury Dining Tables | Luxury Marble & Round Dining Tables";
         content.desc =
-            "Upgrade your dining room with the Best Luxury Dining Chairs with Decofetch. Find your perfect match with our collection of Luxury velvet dining chairs. Shop now and elevate your dining experience.";
-        content.keys = "Best Luxury Dining Chairs, luxury velvet dining chairs";
+            "Transform your dining room with Decofetch's Royal Luxury Dining Tables. We offer a wide selection of Luxury marble & round dining tables. Shop now for Designer Dining Tables!";
+        content.keys = "Luxury Dining Table, royal luxury dining table, luxury marble dining table, luxury round dining table, Luxury Dining Tables, Designer Dining Table";
     }
 
     if (value === "dining-tables") {
         content.title =
-            "Royal Luxury Dining Table | Luxury Marble & Round Dining Table | Decofetch";
+            "Royal Luxury Dining Tables | Luxury Marble & Round Dining Tables";
         content.desc =
-            "Transform your dining room with Decofetch's Royal Luxury Dining Tables. We offer a wide selection of Luxury marble & round dining tables for a sophisticated look. Shop now!";
+            "Transform your dining room with Decofetch's Royal Luxury Dining Tables. We offer a wide selection of Luxury marble & round dining tables. Shop now for Designer Dining Tables!";
         content.keys =
-            "Luxury Dining Table, royal luxury dining table, luxury marble dining table, luxury round dining table";
+            "Luxury Dining Table, royal luxury dining table, luxury marble dining table, luxury round dining table, Luxury Dining Tables, Designer Dining Table";
     }
 
     if (value === "dining-room") {
@@ -114,17 +125,17 @@ const metaData = (value) => {
 
     if (value === "dressing-tables") {
         content.title =
-            "Luxury Dressing Table | Dressing Table with Mirror and Drawers |Decofetch";
+            "Luxury Dressing Table | Designer Dressing Table with Mirror and Drawers";
         content.desc =
-            "Decorate your bedroom with style and elegance with Decofetch's Luxury Dressing Tables. We have a collection of high-quality dressing tables with mirrors and drawers.";
-        content.keys = "Luxury Dressing Table";
+            "Decorate your bedroom with style and elegance with Decofetch's Luxury Dressing Tables. We have a collection of designer dressing tables with mirrors and drawers.";
+        content.keys = "Luxury Dressing Table, Designer Dressing Table";
     }
 
     if (value === "barstools") {
-        content.title = "Luxury Bar Stools | Luxury Leather Bar Stools| Decofetch";
+        content.title = "Designer and Luxury Bar Stools | Luxury Leather Bar Stools";
         content.desc =
-            "Upgrade your bar area with Decofetch's collection of Luxury Bar Stools. Our stylish Luxury leather bar stools for the ultimate in sophistication and comfort. Shop now!";
-        content.keys = "Luxury Leather Bar Stools, Luxury Bar Stools";
+            "Upgrade your bar area with Decofetch's collection of Designer and Luxury Bar Stools. Shop now for Luxury leather bar stools for a perfect blend of style and functionality.";
+        content.keys = "Luxury Leather Bar Stools, Luxury Bar Stools, Designer Bar Stools";
     }
     if (value === "sideboards") {
         content.title = "Luxury and Designer Sideboard Furniture | Decofetch";
@@ -166,12 +177,35 @@ const metaData = (value) => {
     }
 
     if (value === "console-tables") {
-        content.title = "Luxury Console Table | One Stop Shop | Decofetch";
+        content.title = "Luxury Console Table | Designer Console Table | Decofetch";
         content.desc =
-            "Want to give an adorable look to your house Find something extraordinary from our selected range of Luxury Console Tables. Each table has a unique shape, size, color, and shape.";
-        content.keys = "Luxury Console Table";
+            "Want to give an adorable look to your house? Find something extraordinary from our selected range of Designer and Luxury Console Tables. Each table has a unique style, size, and colour.";
+        content.keys = "Luxury Console Table, Designer Console Table";
     }
-
+    if (value === "wall-lights-&-scones") {
+        content.title = "Luxury Wall Lights and Wall Sconces | Designer Wall Lights";
+        content.desc =
+            "Illuminate your space with Decofetch's indoor designer wall lights and sconces collection. Shop the designer wall lights to enhance the beauty of your home.";
+        content.keys = "designer wall light, luxury wall light";
+    }
+    if (value === "ottomans-&-stools") {
+        content.title = "Luxury Ottoman | Luxury Footstools for the Modern Era";
+        content.desc =
+            " Transform your living room with Luxury ottomans and stools. Find the perfect luxury footstools that effortlessly combine comfort and style seamlessly.";
+        content.keys = "Luxury Footstools, Luxury Ottoman";
+    }
+    if (value === "bookcases-&-shelve-units") {
+        content.title = "Designer Bookshelf | Designer Bookcases Classic or Modular";
+        content.desc =
+            "Explore a stunning collection of designer bookcases and shelving units at Decofetch. Find the perfect Designer Bookshelf to organize your books collection.";
+        content.keys = "Designer Bookcase, Designer Bookshelf";
+    }
+    if (value === "drink-cabinets-&-bars") {
+        content.title = "Luxury Drinks Cabinets | Dining Room Modern Bar Cabinets";
+        content.desc =
+            "Decofetch offers a collection of Modern Luxury Drinks Cabinets for your home. Explore our collection of modern bar cabinets, perfect for your dining room.";
+        content.keys = "Luxury Drinks Cabinet";
+    }
     return content;
 };
 
