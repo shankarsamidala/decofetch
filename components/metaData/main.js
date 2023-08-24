@@ -25,7 +25,6 @@ const metaData = (value) => {
         content.keys =
             "High End Sofas, Luxury Designer Sofas, Luxury Modern Sofa, Luxury Velvet Sofas, Designer Leather Sofa, Luxury Sofas, Designer Sofas";
     }
-   
 
     if (value === "sectional-&-corner-sofas") {
         content.title =
