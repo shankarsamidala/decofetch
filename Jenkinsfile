@@ -19,8 +19,8 @@ environment {
             steps {
 
              sshagent(['Decofetch']) {
-                 sh "ssh -o StrictHostKeyChecking=no -l ubuntu 3.111.40.101 'whoami'"
-                 sh "ssh -o StrictHostKeyChecking=no -l ubuntu 3.111.40.101 '${prod}'"
+                 sh "ssh -o StrictHostKeyChecking=no -l ubuntu 13.41.69.216 'whoami'"
+                 sh "ssh -o StrictHostKeyChecking=no -l ubuntu 13.41.69.216 '${prod}'"
 
 
                     }
